@@ -1,0 +1,13 @@
+{
+  "name": "meta-ads-library-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrape Meta Ad Library (no login, no API) and rank winning ads",
+  "scripts": {
+    "scrape": "node scripts/scrape.js",
+    "rank": "node scripts/rank.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
